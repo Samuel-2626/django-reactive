@@ -12,7 +12,7 @@ Before we proceed, note that there may be benefits of using a dedicated frontend
 
 Here's a quick look at the app you'll be building:
 
-![Home Page](https://github.com/Samuel-2626/django-reactive/blob/main/images/homepage-2.png)
+![Home Page](https://github.com/Samuel-2626/django-reactive/blob/base/images/homepage-2.png)
 
 We can add a new book, and delete a new book without refreshing the page, same functionality that would be possible with SPAs.
 
@@ -40,7 +40,7 @@ $ docker-compose exec web python manage.py createsuperuser
 
 Once done, navigate to [http://127.0.0.1:8080/](http://127.0.0.1:8080/) to ensure the app works as expected. You should see the following:
 
-![Home Page](https://github.com/Samuel-2626/django-reactive/blob/main/images/homepage.png)
+![Home Page](https://github.com/Samuel-2626/django-reactive/blob/base/images/homepage.png)
 
 Take note of the `Book` model in _books/models.py_:
 
