@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     # Third-party
     "django_unicorn",  # required for Unicorn to work
-    "unicorn",  # where the Unicorn components are created
+ 
 
 
     # Local
