@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-6">
+    <section>
+        <ul class="list-group">
+          {% for book in books %}
+            <li class="list-group-item">{{ book.title }} <button class="btn btn-outline-danger" style="float: right;" u:click="delete_book('{{ book.id }}')">Delete Book</button></li> 
+          {% empty %}
+            <p>Database Empty | Add your favourite Django book</p>
+          {% endfor %}
+        </ul>
+      </section>
+  </div>
+  <div class="col-md-6">
+    <form>
+      <input type="text" class="form-control" placeholder="Enter title of the book..." u:model.defer="title">
+      <br>
+      <button class="btn btn-secondary" style="min-width: 100%;" u:click.prevent="add_book">Add Books</button>
+    </form>
+    
+  </div>
+</div>
+
+
