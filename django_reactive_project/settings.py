@@ -37,15 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Third-party
-    "django_unicorn",  # required for Unicorn to work
- 
-
-
-    # Local
-    'books.apps.BooksConfig',
-
 ]
 
 MIDDLEWARE = [
